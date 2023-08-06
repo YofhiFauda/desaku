@@ -34,6 +34,7 @@ html {
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
+
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
@@ -3595,15 +3596,24 @@ textarea.form-control.is-invalid {
     line-height: 2.5rem;
   }
 }
+
+#nama_desa {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .text-h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
+  width: 50%;
 }
 @media (min-width: 1024px) {
   .text-h2 {
     font-size: 1.875rem;
     line-height: 2.25rem;
+    width: 100%;
   }
 }
 .text-h3 {
